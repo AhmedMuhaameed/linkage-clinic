@@ -1,1 +1,8 @@
-/* You can add global styles to this file, and also import other style files */
+$gutter: 1rem; //for primeflex grid system
+@import 'primeflex/primeflex.scss';
+@import "assets/layout/styles/layout/layout.scss";
+
+.left-menu .p-menu{
+    width: 100%;
+    border: 0;
+}

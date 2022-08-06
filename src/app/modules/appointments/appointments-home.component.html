@@ -1,0 +1,80 @@
+
+<div class="grid">
+  <div class="col-12 md:col-6 lg:col-6">
+    <p-card>
+      <full-calendar #calendar [options]="calendarOptions" style="max-height: 38rem;"></full-calendar>
+      
+    </p-card>
+  </div>
+  <div class="col-6 md:col-6 lg:col-6">
+    <p-toolbar>
+        <div class="p-toolbar-group-left">
+            <button pButton label="New appointment" icon="pi pi-plus"></button>
+        </div>
+    </p-toolbar>
+    <p-card>
+      <ng-template pTemplate="header">
+        <h5 class="ml-4 pt-4">Next Visit</h5>
+      </ng-template>
+      <div class="grid">
+        <div class="col-3">
+            <p class="details">Type</p>
+        </div>
+        <div class="col-offset-6 col-3">
+            <p class="details">Doctor Visit</p>
+        </div>
+      </div>
+      <div class="grid">
+        <div class="col-3">
+            <p class="details">Doctor</p>
+        </div>
+        <div class="col-offset-6 col-3">
+            <p class="details">Ahmed</p>
+        </div>
+      </div>
+      <div class="grid">
+        <div class="col-3">
+            <p class="details">Scheduled</p>
+        </div>
+        <div class="col-offset-6 col-3">
+            <p class="details">Yes</p>
+        </div>
+      </div>
+      <div class="grid">
+        <div class="col-3">
+            <p class="details">Patient</p>
+        </div>
+        <div class="col-offset-6 col-3">
+            <p class="details">Mohamed</p>
+        </div>
+      </div>
+
+      <div class="grid">
+        <div class="col-3">
+            <p class="details">State</p>
+        </div>
+        <div class="col-offset-6 col-3">
+            <p class="details">waiting</p>
+        </div>
+      </div>
+      <div class="grid">
+        <div class="col-3">
+            <p class="details">Notes</p>
+        </div>
+        <div class="col-offset-6 col-3">
+            <p class="details">11111</p>
+        </div>
+      </div>
+      <div class="grid">
+        <div class="col-3">
+            <p class="details">Waiting time	</p>
+        </div>
+        <div class="col-offset-6 col-3">
+            <p class="details">30 Min</p>
+        </div>
+      </div>
+      
+     
+    </p-card>
+  </div>
+</div>
